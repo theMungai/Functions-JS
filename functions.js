@@ -54,11 +54,11 @@ function calcFahrenheit(celcius)
 }
 
 const fahrenheitResults = calcFahrenheit(13)
-console.log(`The temperature is ${fahrenheitResults}°F`)
+console.log(`The temperature is ${fahrenheitResults}F`)
 
 //=================================================================================================================================
 
-/*Write a function to convert Celsius to Fahrenheit*/
+/*Write a function to convert Fahrenheit to Celsius */
 
 function calcCelsius (fahrenheit)
 {
@@ -67,7 +67,7 @@ function calcCelsius (fahrenheit)
 }
 
 const celsiusResults = calcCelsius(59)
-console.log(`The temperature is: ${celsiusResults}`)
+console.log(`The temperature is: ${celsiusResults}°C`)
 
 //===============================================================================================================================
 
